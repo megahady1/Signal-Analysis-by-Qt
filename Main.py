@@ -5,8 +5,8 @@ import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMdiArea, QAction, QFileDialog, QTextEdit, QGridLayout, QWidget, QMenu,QComboBox,QMessageBox
 import numpy as np
 import pandas as pd
-from PlotSignal import PlotSignal
-from PlotWindow import PlotWindow
+# from PlotSignal import PlotSignal
+# from PlotWindow import PlotWindow
 
 class MainWindow(QMainWindow):
     vectors = []
