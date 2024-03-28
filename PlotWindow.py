@@ -10,7 +10,7 @@ class PlotWindow(QMdiSubWindow):
         self.setWindowTitle('Plot Window')
         self.plotSignal()
 
-    def plotSignal(self):
+    def plotSignal(self): # This is initial plotting to the given signal
         # Create the plot
         region = pg.LinearRegionItem()
         win = pg.GraphicsLayoutWidget()
